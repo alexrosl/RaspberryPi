@@ -39,11 +39,11 @@ int main(void)
 		// LED on
 		digitalWrite(LedPin, LOW);
 		printf("...LED on\n");
-		delay(500);
+		delay(200);
 		// LED off
 		digitalWrite(LedPin, HIGH);
 		printf("LED off...\n");
-		delay(500);
+		delay(200);
 	}
 
 	return 0;
