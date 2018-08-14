@@ -22,9 +22,9 @@ def print_message():
 	print ("|                                      |")
 	print ("|                            SunFounder|")
 	print ("========================================\n")
-	print 'Program is running...'
-	print 'Please press Ctrl+C to end the program...'
-	raw_input ("Press Enter to begin\n")
+	print ("Program is running...")
+	print ("Please press Ctrl+C to end the program...")
+	input ("Press Enter to begin\n")
 
 # Define a setup function for some setup
 def setup():
@@ -47,9 +47,9 @@ def swLed(ev=None):
 	Led_status = not Led_status
 	GPIO.output(LedPin, Led_status)
 	if Led_status:
-		print 'LED OFF...'
+		print ("LED OFF...")
 	else:
-		print '...LED ON'
+		print ("...LED ON")
 
 # Define a main function for main process
 def main():
