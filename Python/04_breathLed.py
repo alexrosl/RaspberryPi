@@ -16,9 +16,9 @@ def print_message():
 	print ("|                                      |")
 	print ("|                            SunFounder|")
 	print ("========================================\n")
-	print 'Program is running...'
-	print 'Please press Ctrl+C to end the program...'
-	raw_input ("Press Enter to begin\n")
+	print ('Program is running...')
+	print ('Please press Ctrl+C to end the program...')
+	input ("Press Enter to begin\n")
 
 def setup():
 	global pLed
@@ -39,20 +39,20 @@ def main():
 	# Set increase/decrease step
 	step =2 
 	# Set delay time.
-	delay = 0.05
+	delay = 1
 	while True:
 		# Increase duty cycle from 0 to 100
 		for dc in range(0, 101, step):
 			# Change duty cycle to dc
 			pLed.ChangeDutyCycle(dc)
-			print " ++ Duty cycle: %s"%dc
+			print (" ++ Duty cycle: %s"%dc)
 			time.sleep(delay)
 		time.sleep(1)
 		# decrease duty cycle from 100 to 0
 		for dc in range(100, -1, -step):
 			# Change duty cycle to dc
 			pLed.ChangeDutyCycle(dc)
-			print "  -- Duty cycle: %s"%dc
+			print ("  -- Duty cycle: %s"%dc)
 			time.sleep(delay)
 		#time.sleep(1)
 
