@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91bb64d0-9d18-4e32-9bcf-53547cf1df5f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Python/01_blinkLed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/02_buttonControlLed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/03_8Led.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/04_breathLed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/05_rgb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/06_beep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/07_relay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/08_4N35.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/09_ne555.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/10_slideSwitch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/11_motor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/12_rotaryEncoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/13_74HC595_LED.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/14_dice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/14_segment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/15_dotMatrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/16_lcd1602.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/17_adxl345.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/I2C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/.idea/raspberryPi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/playground/01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/playground/02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/playground/03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/playground/04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/playground/05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/01_blinkLed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/02_buttonControlLed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/03_8Led.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/04_breathLed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/05_rgb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/06_beep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/07_relay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/08_4N35.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/09_ne555.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/10_slideSwitch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/11_motor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/12_rotaryEncoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/13_74HC595_LED.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/14_dice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/14_segment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/15_dotMatrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/16_lcd1602.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/17_adxl345.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/I2C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/__init__.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/RaspberryPi$03_8Led.coverage" NAME="03_8Led Coverage Results" MODIFIED="1559496996621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/RaspberryPi$01_blinkLed.coverage" NAME="01_blinkLed Coverage Results" MODIFIED="1559497007758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Python/01_blinkLed.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
+    <option name="y" value="33" />
+    <option name="width" value="2050" />
+    <option name="height" value="1119" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RaspberryPi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RaspberryPi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RaspberryPi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RaspberryPi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.01_blinkLed">
+    <configuration name="01_blinkLed" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RaspberryPi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/01_blinkLed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="03_8Led" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RaspberryPi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/03_8Led.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.03_8Led" />
+      <item itemvalue="Python.01_blinkLed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.01_blinkLed" />
+        <item itemvalue="Python.03_8Led" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91bb64d0-9d18-4e32-9bcf-53547cf1df5f" name="Default" comment="" />
+      <created>1553443698504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553443698504</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="33" width="1926" height="1050" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3097826" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3206522" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25453576" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Python/01_blinkLed.py" />
+  </component>
+</project>

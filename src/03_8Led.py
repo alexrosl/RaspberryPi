@@ -2,6 +2,7 @@
 
 import RPi.GPIO as GPIO
 import time
+from random import randint
 
 # Set 8 Pins for 8 LEDs.
 LedPins = [17, 18, 27, 22, 23, 24, 25, 4]
@@ -45,7 +46,21 @@ def main():
     print_message()
     leds = ['-', '-', '-', '-', '-', '-', '-', '-']
 
+    counter = 0
+
     while True:
+        # Turn LED on from left to right
+        # print("From left to right.")
+        for pin in LedPins:
+            if (LedPins.index(pin) + counter) % 2 == 0:
+                GPIO.output(pin, GPIO.LOW)
+
+            if (LedPins.index(pin) + counter) % 2 == 1:
+                GPIO.output(pin, GPIO.HIGH)
+
+        time.sleep(0.1 * randint(1, 15))
+        counter += 1
+
         # Turn LED on from left to right
         print("From left to right.")
         for pin in LedPins:
