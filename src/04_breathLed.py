@@ -41,7 +41,7 @@ def main():
     # Set increase/decrease step
     step = 2
     # Set delay time.
-    delay = 1
+    delay = 0.02
     while True:
         # Increase duty cycle from 0 to 100
         for dc in range(0, 101, step):
@@ -49,7 +49,7 @@ def main():
             pLed.ChangeDutyCycle(dc)
             print(" ++ Duty cycle: %s" % dc)
             time.sleep(delay)
-        time.sleep(1)
+        time.sleep(0.1)
         # decrease duty cycle from 100 to 0
         for dc in range(100, -1, -step):
             # Change duty cycle to dc
