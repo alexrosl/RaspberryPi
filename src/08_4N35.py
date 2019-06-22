@@ -6,21 +6,23 @@ import time
 # Set #17 as 4N35 pin
 Pin_4N35 = 17
 
+
 # Define a function to print message at the beginning
 def print_message():
-	print ("========================================")
-	print ("|                 4N35                 |")
-	print ("|    ------------------------------    |")
-	print ("|      LED connect to 4N35 pin5;       |")
-	print ("|      gpio0 connect to 4N35 pin2;     |")
-	print ("|                                      |")
-	print ("|     4N35 to contral led blinking.    |")
-	print ("|                                      |")
-	print ("|                            SunFounder|")
-	print ("========================================\n")
-	print 'Program is running...'
-	print 'Please press Ctrl+C to end the program...'
-	raw_input ("Press Enter to begin\n")
+	print("========================================")
+	print("|                 4N35                 |")
+	print("|    ------------------------------    |")
+	print("|      LED connect to 4N35 pin5;       |")
+	print("|      gpio0 connect to 4N35 pin2;     |")
+	print("|                                      |")
+	print("|     4N35 to contral led blinking.    |")
+	print("|                                      |")
+	print("|                            SunFounder|")
+	print("========================================\n")
+	print('Program is running...')
+	print('Please press Ctrl+C to end the program...')
+	input("Press Enter to begin\n")
+
 
 # Define a setup function for some setup
 def setup():
@@ -30,19 +32,21 @@ def setup():
 	# and initial level to High(3.3v)
 	GPIO.setup(Pin_4N35, GPIO.OUT, initial=GPIO.HIGH)
 
+
 # Define a main function for main process
 def main():
 	# Print messages
 	print_message()
 	while True:
-		print '...LED ON'
+		print('...LED ON')
 		# Turn on LED
 		GPIO.output(Pin_4N35, GPIO.LOW)
 		time.sleep(0.5)
-		print 'LED OFF...'
+		print('LED OFF...')
 		# Turn off LED
-		GPIO.output(Pin_4N35, GPIO.HIGH) 
+		GPIO.output(Pin_4N35, GPIO.HIGH)
 		time.sleep(0.5)
+
 
 # Define a destroy function for clean up everything after
 # the script finished 
@@ -50,7 +54,8 @@ def destroy():
 	# Turn off LED
 	GPIO.output(Pin_4N35, GPIO.HIGH)
 	# Release resource
-	GPIO.cleanup()                     
+	GPIO.cleanup()
+
 
 # If run this script directly, do:
 if __name__ == '__main__':
